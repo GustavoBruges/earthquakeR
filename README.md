@@ -1,0 +1,2 @@
+# earthquakeR
+R Capstone Project
