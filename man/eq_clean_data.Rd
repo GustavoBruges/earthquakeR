@@ -7,7 +7,7 @@
 eq_clean_data(data_raw)
 }
 \arguments{
-\item{earthquakes_raw}{The raw NOAA data frame to be cleaned.}
+\item{data_raw}{The raw NOAA data frame to be cleaned.}
 }
 \value{
 This function returns a data.frame containing the cleaned NOAA earthquake data.
@@ -33,6 +33,6 @@ The clean data frame has the following:
     and converting the names to title case (as opposed to all caps).
 }
 \examples{
-\dontrun{eq_clean_data(data_raw)}
+\dontrun{eq_clean_data(earthquake_raw_df)}
 
 }

@@ -27,6 +27,6 @@ If an earthquake is missing values for any of these, both the label and the valu
 skipped for that element of the tag.
 }
 \examples{
-\dontrun{eq_create_label(data = cleaned_data)}
+\dontrun{eq_create_label(data = eq_data)}
 
 }
